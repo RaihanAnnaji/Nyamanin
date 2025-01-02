@@ -1,0 +1,58 @@
+/*========================================================
+        DARK LAYOUT
+=========================================================*/
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Bayangan hitam dengan transparansi */
+}
+
+
+.banner-bg {
+  background : url(../../../assets/images/backgrounds/bg_banner.jpeg) no-repeat;
+  background-size : cover;
+  height: 600px !important;
+}
+.banner-bg .form-control:focus ~ .form-control-position i {
+  color : #6AAFB3;
+}
+
+.banner .banner-content .banner-table-content {
+  cursor : pointer;
+  padding : 0.5rem;
+  font-weight : 500;
+}
+.banner .banner-content .banner-table-content i {
+  margin-right : 0.5rem;
+}
+
+.banner .supporter-details .supporter-img img {
+  width : 35px;
+  height : 35px;
+  margin-right : 0.5rem;
+  cursor : pointer;
+}
+
+.banner .supporter-info {
+  vertical-align : middle;
+}
+
+.banner .accordion .collapse-title {
+  font-weight : 500;
+  color : #2C2C2C;
+}
+
+.banner .accordion .collapse-margin {
+  background-color : #FFFFFF;
+}
+
+@media only screen and (min-width: 992px) {
+  .banner-bg .card-body {
+    padding : 8rem !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .banner-bg .card-body {
+    padding : 6rem !important;
+  }
+}

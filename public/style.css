@@ -1,0 +1,72 @@
+/* Warna utama */
+:root {
+    --primary-color: #6dadb6;
+    --primary-hover: #5ca4a9;
+    --secondary-color: #f4f7fc;
+}
+
+.text-toska{
+    color: #6dadb6 !important;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--secondary-color);
+    color: #333;
+}
+
+
+a {
+    color: #6dadb6; /* Warna link menjadi hijau */
+    text-decoration: none; /* Menghilangkan underline */
+}
+
+/* Card styling */
+.card {
+    border: none;
+    border-radius: 8px;
+}
+
+/* Input field styling */
+.input-group-text {
+    background-color: var(--secondary-color);
+    border: 1px solid #ccc;
+    color: #6c757d;
+}
+
+.input-group-text i {
+    font-size: 1rem;
+}
+
+/* Tombol */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+}
+
+.btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+/* Full width button styling */
+.w-45 {
+    width: 45%;
+}
+
+/* Checkbox styling */
+.form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
